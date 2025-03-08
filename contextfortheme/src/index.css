@@ -1,0 +1,56 @@
+/* Add the following CSS to center everything */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.content {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  color: #333; /* Default text color */
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.dark {
+  background-color: #333; 
+  color: white; 
+}
+
+.light {
+  background-color: #f5f5f5; 
+  color: black;
+}
+
+button {
+  margin: 10px;
+}
+
+button:focus {
+  outline: none;
+}
+
+
+
+
+
